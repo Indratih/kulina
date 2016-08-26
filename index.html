@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title data-react-helmet="true" data-reactid="3">Kulina | Situs pesan katering online dari berbagai dapur pilihan</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/png" href="/apple-icon-57x57.png"/>
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+      <header id="header" class="site-header">
+        <nav id="topbar" class="site-topbar">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-xs-12">Sementara hanya melayani area Jakarta Pusat, Jakarta Selatan, dan Jakarta Barat</div>
+              <div class="gTopbar col-md-offset-6">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#dapur">Dapur Mitra</a></li>
+                  <li><a href="#caraPesan">Cara Pesan</a> </li>
+                  <li><a href="#MakananGratis">Makanan Gratis</a> </li>
+                  <li><a href="#Login">Masuk/Daftar</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Navigation -->
+        <nav id="navbar" class="site-navbar navbar-default navbar-fix-top one-page-nav" role="navigation">
+        <div class="container-fluid">
+          <!-- <div class="container"> -->
+            <div class="navbar-header">
+            <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+              </div>
+              <h1 class="navbar-brand">
+                <ul id="logo" class="logoku">
+                  <img src    ="images/logo-kulina-red.jpg" alt="Logo" height="35.9"/>
+                </ul>
+              </h1>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+              <ul id="navigation" class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#kulina" class="current">Home</a></li>
+                <li><a href="#langganan">Langganan Kulina</a></li>
+                <li><a href="#paketkatering">Paket Katering</a></li>
+                <li><a href="#menuharian">Menu Harian</a></li>
+                <li><a href="">
+                  <i class  ="fa fa-shopping-cart" aria-hidden="true">
+                  <span class ="cart-value hidden-xs hidden-sm">Keranjang Saya</span></i>
+                </a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+     </header>
+
+      <main id="main" class="site-main">
+        <div id    ="homepageBanner">
+          <div class="container">
+            <a href="" data-toggle="modal" data-target="#myModal"><img src="images/background.png" /></a>
+
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="title  text-center">Langganan Kulina Box</h2>
+                    <p class="lead text-center">Paket makan siang (hari kerja Senin- Jumat)<br>murah, praktis, dan halal dimasak oleh dapur katering profesional.</p>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                    <div class="row form-group modal-jumlah">
+                      <div class="col-sm-12">
+                        <div class="box-counter"> <h3>Paket makan siang (hari kerja Senin- Jumat)</h3>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="row form-group day-count">
+                      <div class="col-sm-12"><h4 class="title  text-center">Langganan Berapa Box Per Hari?</h4>
+                        <select name="available-dates" id="available-dates">
+                          <option value="5">5 Box atau lebih</option>
+                          <option value="10">10 Box atau lebih</option>
+                          <option value="20">20 Box atau lebih</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row form-group modal-start-date">
+                      <div class="col-sm-12"><h4 class="title  text-center">Langganan berapa hari?</h4>
+                        <select name="available-dates" id="available-dates">
+                          <option value="10 Hari">10 Hari</option>
+                          <option value="20 Hari">20 Hari</option>
+                          <option value="30 Hari">30 Hari</option>
+                          <option value="40 Hari">40 Hari</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row modal-price">
+                      <div class="col-sm-12">
+                        <h4 class="title  text-center">Rp 19,000/box</h4>
+                        <h5 class="title  text-center">Harga Reguler <s> Rp 30,000</s></h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <div class="well">
+                          <h5>Termasuk biaya kirim</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-large btn-block">
+                       <span>Pesan Sekarang</span>
+                    </button>
+                  </form>
+                </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        <div class="container">
+          <div class="guarantee-row">
+            <div class="row">
+              <div class="col-sm-6 guarantee">
+                <div class="row no-m-bottom">
+                  <div class="image-heading">
+                    <img src="images/ic-guarantee.png" alt=""></div>
+                      <div class="desc-heading">
+                        <h3 class="head3Thom">Garansi Kualitas</h3>
+                          <p class="lead">Berhenti langganan sewaktu-waktu dengan pengembalian penuh jika Anda tidak puas dengan makanan kami.</p>
+                      </div>
+                </div>
+              </div>
+              <div class="col-sm-6 free">
+                <div class="row no-m-bottom">
+                  <div class="image-heading">
+                    <img src="images/rectangle-1440-copy-2.png" alt="">
+                  </div>
+                <div class="desc-heading">
+                  <h3 class="head3Thom">Gratis Biaya Pengiriman</h3>
+                  <p class="lead">Semua harga tercantum sudah termasuk biaya kirim.</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-5 col-sm-6">
+                  <hr class="section-heading-spacer">
+                  <div class="clearfix"></div>
+                  <h2 class="section-heading">Apa itu Kulina Box?</h2>
+                  <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  <h3 class="section-heading">Apa saja yang ada dalam kulina box?</h3>
+                  <p class="lead">Lorem ipsum dolor sit amet, nam tation persius cu, ut mei dolor necessitatibus. Ius eu mutat nostrum.</p>
+                  <ul class="lead">
+                    <li>1 Porsi Nasi Putih</li>
+                    <li>1 Porsi Lauk Utama</li>
+                    <li>1 Porsi Lauk Pendamping</li>
+                    <li>1 Porsi Sayur</li>
+                  </ul>
+              </div>
+              <div class="col-lg-5 col-lg-offset-2  col-sm-6">
+                  <img class="img-responsive" src="images/group-7.png" alt="">
+              </div>
+          </div>
+        </div>
+
+        <section class="section section-center section-cta">
+          <div class="container">
+            <div class="row">
+              <h2 class="section-heading">Menu Untuk 2 Minggu</h2>
+              <div id="amazingcarousel-container-0">
+                  <div id="amazingcarousel-0" style="display:none;position:relative;width:100%;max-width:1440px;margin:0px auto 0px;">
+                      <div class="amazingcarousel-list-container">
+                          <ul class="amazingcarousel-list">
+                              <li class="amazingcarousel-item">
+                                  <div class="amazingcarousel-item-container">
+                                    <div class="amazingcarousel-image">
+                                        <a href="images/cakalang-rica-dan-tumis-bunga-pepaya-2_thumb-lightbox.jpg" title="cakalang-rica-dan-tumis-bunga-pepaya-2_thumb"  class="html5lightbox" data-group="amazingcarousel-0">
+                                        <img src="images/cakalang-rica-dan-tumis-bunga-pepaya-2_thumb.jpg"  alt="cakalang-rica-dan-tumis-bunga-pepaya-2_thumb" />
+                                        </a>
+                                    </div>
+                                      <div class="box-desc">
+                                        <p class="date">Rabu, 24 Agustus 2016</p>
+                                        <h5>cakalang rica dan tumis bunga pepaya</h5>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="amazingcarousel-item">
+                                  <div class="amazingcarousel-item-container">
+                                    <div class="amazingcarousel-image">
+                                    <a href="images/beef-black-pepper-and-cah-pakcoy-garlic_thumb-lightbox.jpg" title="beef-black-pepper-and-cah-pakcoy-garlic_thumb"  class="html5lightbox" data-group="amazingcarousel-0">
+                                    <img src="images/beef-black-pepper-and-cah-pakcoy-garlic_thumb.jpg"  alt="beef-black-pepper-and-cah-pakcoy-garlic_thumb" />
+                                    </a>
+                                    </div>
+                                      <div class="box-desc">
+                                        <p class="date">Rabu, 24 Agustus 2016</p>
+                                        <h5>beef black pepper and cah pakcoy garlic</h5>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="amazingcarousel-item">
+                                  <div class="amazingcarousel-item-container">
+                                    <div class="amazingcarousel-image">
+                                    <a href="images/ayam-woku-dan-tumis-kacang-panjang-jagung-2_thumb-lightbox.jpg" title="ayam-woku-dan-tumis-kacang-panjang-jagung-2_thumb"  class="html5lightbox" data-group="amazingcarousel-0">
+                                    <img src="images/ayam-woku-dan-tumis-kacang-panjang-jagung-2_thumb.jpg"  alt="5-hari-makan-enak-2_thumb" /></a></div>
+                                  </div>
+                                      <div class="box-desc">
+                                        <p class="date">Rabu, 24 Agustus 2016</p>
+                                        <h5>ayam woku dan tumis kacang panjang jagung</h5>
+                                      </div>
+                              </li>
+                              <li class="amazingcarousel-item">
+                                  <div class="amazingcarousel-item-container">
+                                    <div class="amazingcarousel-image">
+                                      <a href="images/ayam-mentega-dan-tumis-taoge_thumb-lightbox.jpg" title="ayam-mentega-dan-tumis-taoge_thumb"  class="html5lightbox" data-group="amazingcarousel-0">
+                                        <img src="images/ayam-mentega-dan-tumis-taoge_thumb.jpg"  alt="ayam-mentega-dan-tumis-taoge_thumb" />
+                                      </a>
+                                    </div>                   
+                                  </div>
+                                      <div class="box-desc">
+                                        <p class="date">Rabu, 24 Agustus 2016</p>
+                                        <h5>ayam-mentega-dan-tumis-taoge</h5>
+                                      </div>
+                              </li>
+                              <li class="amazingcarousel-item">
+                                  <div class="amazingcarousel-item-container">
+                                    <div class="amazingcarousel-image">
+                                      <a href="images/ayam-goreng-serundeng-dan-capcay-goreng-2_thumb-lightbox.jpg" title="ayam-goreng-serundeng-dan-capcay-goreng-2_thumb"  class="html5lightbox" data-group="amazingcarousel-0">
+                                        <img src="images/ayam-goreng-serundeng-dan-capcay-goreng-2_thumb.jpg"  alt="5-hari-makan-malam-dapur-ibu-1_thumb" />
+                                      </a>
+                                    </div>
+                                  </div>
+                                      <div class="box-desc">
+                                        <p class="date">Rabu, 24 Agustus 2016</p>
+                                        <h5>ayam goreng serundeng dan capcay goreng </h5>
+                                      </div>
+                              </li>
+                              <li class="amazingcarousel-item">
+                                  <div class="amazingcarousel-item-container">
+                                    <div class="amazingcarousel-image">
+                                      <a href="images/ayam-goreng-lengkuas-dan-tumis-kacang_thumb-lightbox.jpg" title="ayam-goreng-lengkuas-dan-tumis-kacang_thumb"  class="html5lightbox" data-group="amazingcarousel-0">
+                                       <img src="images/ayam-goreng-lengkuas-dan-tumis-kacang_thumb.jpg"  alt="5-hari-makan-siang-bengkel-penyet-2_thumb" />
+                                      </a>
+                                    </div>
+                                  </div>
+                                      <div class="box-desc">
+                                        <p class="date">Rabu, 24 Agustus 2016</p>
+                                        <h5>Ayam Goreng Lengkuas dan Tumis Kacang</h5>
+                                      </div>
+                              </li>
+                              <li class="amazingcarousel-item">
+                                  <div class="amazingcarousel-item-container">
+                                    <div class="amazingcarousel-image">
+                                      <a href="images/ayam-cabe-ijo-dan-tumis-buncis-putren-2_thumb.jpg" title="ayam-cabe-ijo-dan-tumis-buncis-putren-2_thumb"  class="html5lightbox" data-group="amazingcarousel-0">
+                                       <img src="images/ayam-cabe-ijo-dan-tumis-buncis-putren-2_thumb.jpg"  alt="5-hari-makan-siang-dapur-ibu-1_thumb" />
+                                     </a>
+                                    </div>
+                                  </div>
+                                      <div class="box-desc">
+                                        <p class="date">Rabu, 24 Agustus 2016</p>
+                                        <h5>Ayam Cabe Ijo dan Tumis Buncis Puntren</h5>
+                                      </div>
+                              </li>
+                              <li class="amazingcarousel-item">
+                                  <div class="amazingcarousel-item-container">
+                                    <div class="amazingcarousel-image">
+                                     <a href="images/ayam-cabai-hijau-dan-cah-buncis_thumb-lightbox.jpg" title="ayam-cabai-hijau-dan-cah-buncis_thumb"  class="html5lightbox" data-group="amazingcarousel-0">
+                                        <img src="images/ayam-cabai-hijau-dan-cah-buncis_thumb.jpg"  alt="5-hari-makan-siang-ekklesia-3_thumb" />
+                                     </a>
+                                    </div>
+                                  </div>
+                                      <div class="box-desc">
+                                        <p class="date">Rabu, 24 Agustus 2016</p>
+                                        <h5>Ayam Cabe Ijo dan Cah Buncis</h5>
+                                      </div>
+                              </li>
+                          </ul>
+                          <div class="amazingcarousel-prev"></div>
+                          <div class="amazingcarousel-next"></div>
+                      </div>
+                      <div class="amazingcarousel-nav"></div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+          <div class  ="SubscribeIntercom" id="subscribe">
+            <div class  ="content">
+              <div class  ="container">
+                    <h4><span class ="text28Thom">Daftarkan Email Anda untuk mendapatkan voucher promo makan <strong>Gratis</strong> Rp 50.000,00</span></h4>
+                    <form class="formSubscribe">
+                      <div class="col-md-5 col-lg-3 col-lg-offset-2">
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Nama">
+                      </div>
+                      <div class ="col-md-5 col-lg-3">
+                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+                      </div>
+                      <div class ="col-md-2">
+                        <button type="submit" class="btn btn-subscribe" background="">Kirim</button>
+                      </div>
+                    </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <section class="section section-center section-cta">
+          <div class="container">
+            <div class="row">
+              <h2 class="section-heading">Mengapa langganan kulina box?</h2>
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="images/ic-kualitas.png" alt="Kualitas" width="140" height="140">
+                    <h4>Kualitas dan Variasi Terjamin</h4>
+                    <p class="lead">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-lg-4">
+                    <img src="images/ic-harga.png" alt="Generic placeholder image" width="140" height="140">
+                    <h4>Harga Terjangkau</h4>
+                    <p class="lead">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-lg-4">
+                    <img  src="images/ic-fleksibel.png" alt="Generic placeholder image" width="140" height="140">
+                    <h4>Fleksibel</h4>
+                    <p class="lead">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                  </div><!-- /.col-lg-4 -->
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-center section-cta">
+          <div class="row subscribe" background-color="#fe574b">
+            <!-- <div class="container"> -->
+              <div class="col-md-6 banner-img">
+                <img src="images/group-6.png" alt="">
+              </div>
+              <div class="col-md-6 request-sample">
+                <div class="wrapper">
+                <h4>Penasaran dengan Kulina Box?
+                  <strong>COBA GRATIS</strong>
+                </h4>
+                  <a class="btn btnsample" href="/sample">SAYA INGIN SAMPLE GRATIS</a>
+                </div>
+              </div>
+            <!-- </div> -->
+          </div>
+        </section>
+
+
+        <section class="section section-center section-cta">
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                  <img class="img-circle" src="images/ava_DianParamita.jpg" alt="Generic placeholder image" width="140" height="140">
+                  <!-- <h2>Heading</h2> -->
+                  <p class="lead">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <img class="img-circle" src="images/ava_intan.jpg" alt="Generic placeholder image" width="140" height="140">
+                  <!-- <h2>Heading</h2> -->
+                  <p class="lead">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <img class="img-circle" src="images/ava_TeguhAriwibowo.jpg" alt="Generic placeholder image" width="140" height="140">
+                  <!-- <h2>Heading</h2> -->
+                  <p class="lead">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                </div><!-- /.col-lg-4 -->
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <footer id="footer" class="site-footer">
+<!--         <div class="container"> -->
+        <div id="sidebar-footer-1">
+          <div class="row hidden-xs hidden-sm">
+            <aside class="widget col-xs-12 col-sm-3">
+              <h5 class="widget-title">Kulina Office</h5>
+              <p>Bits Coworking Space, Midtown lt 3 <br>Jl. Tulodong Atas No.28, Senayan,<br> Kby. Baru, Jakarta Selatan,<br> DKI Jakarta</p>
+            </aside>
+            <aside class="widget col-xs-12 col-sm-3">
+              <h5 class="widget-title" >Tentang Kulina</h5>
+              <div class="textwidget">
+                <div class="" href="/pp">Kebijakan Privasi</div>
+                <div><span class="" href="/tnc">Syarat & Ketentuan</span>,</div>
+                <div><abbr class="" href="/faq">FAQ</abbr></div>
+                <div><span class="">Blog</span></div>
+              </div>
+            </aside>
+            <aside class="widget col-xs-12 col-sm-3">
+              <h5 class="widget-title">Bergabung</h5>
+              <p>Daftar jadi Dapur Mitra <br> Referensikan Chef Favoritmu <br>Karir di Kulina</p>
+            </aside>
+            <aside class="widget col-xs-12 col-sm-3">
+              <h5 class="widget-title">Metode Pembayaran</h5>
+                <img src    ="images/ic-visa.png"title="Visa"/>
+                <img src    ="images/ic-mc.png" title="MasterCard"/>
+                <img src    ="images/ic-jcb.png" title="JCB"/>
+                <img src    ="images/ic-mdr.png" title="Mandiri"/>
+                <img src    ="images/ic-bca.png" title="BCA"/>
+                <img src    ="images/ic-bni.png" title="BNI"/>
+                <img src    ="images/ic-pmt.png"title="Permata"/>
+            </aside>
+          </div>
+        </div>
+
+     <div id="sidebar-footer-2">
+          <div class="row hidden-xs hidden-sm">
+            <aside class="widget col-sm-7">
+              <p>Made with <span style="font-size:100%;color:red;">&hearts;</span> from Indonesia. &copy 2016 Kulina - All rights reserved.</p>
+            </aside>
+            <aside class  ="widget col-sm-5 pull-right">
+              <a href    =""><i class  ="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href    =""><i class  ="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href    =""><i class  ="fa fa-pinterest" aria-hidden="true"></i></a>
+              <a href    =""><i class  ="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href    =""><i class  ="fa fa-google-plus" aria-hidden="true"></i></a>
+            </aside>
+          </div>
+      </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>    
+    <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js?v=1.5.26"></script>
+    <script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="carouselengine/initcarousel-0.js"></script>
+    <script type="text/javascript" src="carouselengine/jquery.js"></script>
+    <script type="text/javascript" src="carouselengine/amazingcarousel.js"></script>
+
+  </body>
+</html>
